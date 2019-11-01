@@ -55,3 +55,89 @@ p {
 footer.page-footer {
   margin: 0;
 }
+
+/* ------------------ Serhii added -----------------*/
+:root {
+  --main-bg-color: #591462;
+  --title-color: #360642;
+}
+.main-theme{
+  background-color: var(--main-bg-color);
+}
+.text-color {
+  color: var(--title-color);
+}
+.text-color-second {
+  color: #111;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 400;
+}
+.content-wrap nav ul a, .content-wrap  nav .brand-logo{
+  color: white;
+}
+.content-wrap .sidenav-trigger {
+  color: white;
+}
+.content-wrap .sidenav {
+  background-color: var(--main-bg-color);
+  opacity: 0.8;
+}
+.content-wrap .parallax {
+  background-color: #f2e8f5;;
+}
+
+.content-wrap .parallax-container {
+  /*min-height: 570px;*/
+  color: #111;
+}
+
+.content-wrap .light {
+  font-size: 18px;
+  font-weight: 400;
+  color: #111;
+}
+
+/*//---------------------- main-block------------*/
+.problems-block.parallax-container{
+  line-height: inherit;
+}
+.problems-block.parallax-container ul{
+  margin-left: 50px;
+}
+.problems-block.parallax-container li{
+  list-style: disc;
+}
+
+/*//--------------------- give-block -------------//*/
+.give-block.parallax-container{
+  line-height: inherit;
+}
+.give-block.parallax-container ul {
+  margin-left: 50px;
+}
+.give-block.parallax-container li{
+  list-style: disc;
+}
+
+/*//---------------------- about-us------------*/
+.mission-block ul{
+  margin-left: 40px;
+}
+.mission-block li{
+  list-style: disc !important;
+}
+
+/*---------- forms -------*/
+.content-wrap .btn, .btn-large, .btn-small {
+  background-color: var(--main-bg-color);
+}
+.content-wrap .btn:hover, .content-wrap .btn-large:hover, .content-wrap .btn-small:hover {
+  opacity: 0.8;
+  background-color: var(--main-bg-color);
+}
+
+/*//--------------------- Footer-------------//*/
+.content-wrap .teal {
+  background-color: var(--main-bg-color) !important;
+}
